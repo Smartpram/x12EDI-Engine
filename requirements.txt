@@ -1,0 +1,19 @@
+# Core Libraries
+pyx12==2.5.0          # X12 EDI parsing
+paramiko==3.1.0       # SFTP support
+cryptography==39.0.1  # Data encryption
+requests==2.28.2      # API integration
+smtplib==default      # Email notifications (built-in)
+email==default        # Email notifications (built-in)
+concurrent-log-handler==0.9.20  # Thread-safe logging
+
+# Testing and Development
+pytest==7.2.2         # Testing framework
+pytest-cov==4.0.0     # Test coverage reporting
+black==23.1.0         # Code formatting
+flake8==6.0.0         # Linting
+mypy==1.0.1           # Static type checking
+
+# Additional Utilities
+python-dotenv==1.0.0  # Environment variable management
+loguru==0.6.0         # Enhanced logging
